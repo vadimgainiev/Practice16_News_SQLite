@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtNewsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_hint"
+        android:inputType="text"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/txtNewsText"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_below="@+id/txtNewsTitle"
+        android:hint="@string/newsText_hint"
+        android:gravity="left|top"
+        android:inputType="textMultiLine"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNewsText"
+        android:layout_marginTop="30sp"
+        android:text="@string/btnAdd"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:text="@string/btnEdit"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEdit"
+        android:text="@string/btnDelete"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDelete"
+        android:layout_marginTop="30sp"
+        android:text="@string/btnSelect"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:text="@string/btnBack"
+        android:layout_below="@+id/btnSelect"
+        android:textSize="24sp"/>
+
+</RelativeLayout>

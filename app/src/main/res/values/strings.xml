@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Новости</string>
+    <string name="title_hint">Заголовок</string>
+    <string name="newsText_hint">Текст публикации</string>
+    <string name="btnAdd">Создать</string>
+    <string name="btnEdit">Редактировать</string>
+    <string name="btnDelete">Удалить</string>
+    <string name="btnSelect">Открыть ленту</string>
+    <string name="btnBack">Назад</string>
+    <string name="loadingTitle">Загрузка...</string>
+    <string name="registration_hint">Регистрация</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="txtLogin">Логин</string>
+    <string name="txtPassword">Пароль</string>
+    <string name="roleAdmin">Администратор</string>
+    <string name="roleReader">Читатель</string>
+    <string name="authorization_hint">Авторизация</string>
+    <string name="btnLogIn">Войти</string>
+</resources>
